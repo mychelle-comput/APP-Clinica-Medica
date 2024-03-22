@@ -13,7 +13,7 @@ public class PacienteController {
 
     @PostMapping
     public void cadastroPacientes(@RequestBody DadosCadastroPacientes dados){
-        System.out.println(dados);
+        System.out.println("dados recebido:" +dados);
 
     }
 
